@@ -34,7 +34,7 @@ def main():
     if "erro" not in addressData:
         print()
         print("--------------------------------")
-        print("==> CEP ENCONTRADO <==")
+        print("===> CEP ENCONTRADO <===")
         print("CEP: {}".format(addressData['cep']))
         print("Logradouro: {}".format(addressData['logradouro']))
         print("Complemento: {}".format(addressData['complemento']))
